@@ -1,0 +1,83 @@
+.contact-address{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.contact-address > .field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.contact-address > .field > h5{
+    color: var(--white);
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.contact-address > .field > span{
+    color: var(--white);
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+#contact{
+    width: 100%;
+    padding: 4rem;
+    background: var(--secondary-color);
+}
+form{
+    max-width: 80rem;
+    flex-grow: 1;
+    background: var(--white);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 5rem 6rem 5rem;
+}
+form > h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+form > input,
+form > select,
+form > textarea{
+    outline: none;
+    border: 0.4rem solid var(--primary-color);
+    padding: 1rem 3rem;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    transition: var(--trans-1);
+}
+form > input:focus,
+form > select:focus,
+form > textarea:focus{
+    border: 0.4rem solid #8C9CAE;
+}
+form > textarea{
+    resize: none;
+    min-height: 15rem;
+}
+form > input::placeholder,
+form > textarea::placeholder{
+    color: var(--primary-color);
+}
+form > input[type="submit"]{
+    width: fit-content;
+    align-self: center;
+    background: var(--primary-color);
+    color: var(--white);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: var(--trans-1);
+    border: none;
+    padding: 1rem 7rem;
+}
+form > input[type="submit"]:hover{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
