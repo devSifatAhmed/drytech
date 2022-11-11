@@ -40,6 +40,7 @@
 }
 .team-slider > * .slide{
     width: 100%;
+    opacity: 0.7;
 }
 .team-slider > * .slide > img{
     width: 100% !important;
