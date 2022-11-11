@@ -1,0 +1,55 @@
+#service{
+    width: 100%;
+    background: var(--secondary-color);
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+#service > h1{
+    font-size: 6rem;
+    font-weight: 100;
+    color: var(--primary-color);
+}
+.service-wrapper{
+    width: 100%;
+    display: flex;
+    gap: 5rem 3rem;
+    flex-wrap: wrap;
+}
+.service-wrapper > .col{
+    flex-basis: calc((100% / 3) - 3rem);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+.service-wrapper > .col > .img{
+    width: 100%;
+    max-height: 40rem;
+}
+.service-wrapper > .col > .img > img{
+    width: 100%;
+    height: 100%;
+}
+.service-wrapper > .col > h3{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-weight: 200;
+}
+.service-wrapper > .col > a{
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    border-radius: 0.5rem;
+    transition: var(--trans-1);
+    margin-top: -1.5rem;
+}
+.service-wrapper > .col > a:hover{
+    background: var(--white);
+    color: var(--primary-color);
+}
