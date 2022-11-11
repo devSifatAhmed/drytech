@@ -16,4 +16,12 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         dots: false,
     });
+    $('.team-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        dots: false,
+        arrows: false,
+    });
 });
