@@ -16,7 +16,6 @@
     position: relative;
 }
 .about-wrapper > .col > .text{
-    padding-left: 5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -28,10 +27,12 @@
     color: var(--white);
 }
 .about-wrapper > .col > .text > p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     font-family: "Roboto";
     color: var(--white);
+    line-height: 3.5rem;
+    padding-left: 6rem;
 }
 .about-wrapper > .col > .text > .img{
     padding-right: 6rem;
