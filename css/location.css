@@ -1,25 +1,26 @@
 #location{
     width: 100%;
-    padding: 5rem 10rem;
+    padding: 5rem 0;
     background: var(--secondary-color);
 }
 .location-wrapper{
     width: 100%;
     display: flex;
     align-items: stretch;
-    gap: 4rem;
+    gap: 4rem 0;
 }
 .location-wrapper > .col{
-    flex-basis: calc(50% - 4rem);
+    flex-basis: calc((100% / 2));
     display: flex;
+    background: var(--white);
 }
 .location-wrapper > .col:nth-child(1){
-    justify-content: flex-end;
+    justify-content: center;
 }
 .location-wrapper > .col > .text{
     width: fit-content;
     background: var(--white);
-    padding: 3rem 5rem;
+    padding: 7rem 3rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -53,7 +54,6 @@
 }
 .location-wrapper > .col > .map{
     width: 100%;
-    background: red;
 }
 .location-wrapper > .col > .map > iframe{
     width: 100%;
