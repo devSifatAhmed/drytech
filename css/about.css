@@ -10,6 +10,7 @@
     align-items: stretch;
     padding: 5rem;
     background: var(--primary-color);
+    flex-wrap: wrap;
 }
 .about-wrapper > .col{
     flex-basis: calc((100% / 2) - 4rem);
@@ -89,4 +90,21 @@
 }
 .about-wrapper > .col > .video > .thumb.active{
     display: none;
+}
+
+@media(max-width: 800px){
+    .about-wrapper > .col{
+        flex-basis: 100%;
+    }
+    .about-wrapper > .col:nth-child(2){
+        height: 33rem;
+    }
+}
+@media(max-width: 550px){
+    .about-wrapper{
+        padding: 3rem;
+    }
+    #about{
+        padding: 3rem;
+    }
 }

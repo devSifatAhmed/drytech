@@ -59,3 +59,18 @@
     width: 100%;
     height: 100%;
 }
+
+@media(max-width: 550px){
+    
+    .location-wrapper{
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 0 3rem;
+    }
+    .location-wrapper > .col{
+        flex-basis: 100%;
+    }
+    .location-wrapper > .col:nth-child(2) > .map{
+        min-height: 37rem;
+    }
+}

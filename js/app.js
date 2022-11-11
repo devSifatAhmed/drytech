@@ -5,6 +5,13 @@ $(document).ready(function () {
     });
 
 
+    $(".nav-open").click(function(){
+        $(".nav-body").addClass("active");
+    });
+    $(".nav-close").click(function(){
+        $(".nav-body").removeClass("active");
+    });
+
 
 
 
@@ -20,8 +27,22 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2000,
         dots: false,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 799,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 551,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
 });

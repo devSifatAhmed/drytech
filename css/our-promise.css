@@ -42,3 +42,23 @@
 .our-promise-wrapper > .col > .text > p > b{
     font-weight: 400;
 }
+
+@media(max-width: 800px){
+    .our-promise-wrapper{
+        flex-wrap: wrap;
+    }
+    .our-promise-wrapper > .col{
+        flex-basis: 100%;
+    }
+    .our-promise-wrapper > .col > .img{
+        width: 100%;
+        max-height: 45rem;
+        overflow: hidden;
+    }
+    .our-promise-wrapper > .col > .text{
+        margin: 0 auto;
+        max-width: 60rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+}

@@ -20,6 +20,7 @@
 .team-form > h2{
     font-size: 5rem;
     font-weight: 200;
+    text-align: center;
     color: var(--primary-color);
 }
 .team-form > a{
@@ -44,4 +45,15 @@
 }
 .team-slider > * .slide > img{
     width: 100% !important;
+}
+
+@media(max-width: 650px){
+    .team-form > h2{
+        font-size: 4rem;
+    }
+}
+@media(max-width: 500px){
+    .team-form > h2{
+        font-size: 3.5rem;
+    }
 }
