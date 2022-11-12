@@ -4,11 +4,17 @@ $(document).ready(function () {
         $(this).next().attr("controls", "");
     });
 
+    $(".nav-list > li").hover(function () {
+        $(this).children(".sub-menu").addClass("active");
+        },
+        function () {
+        $(this).children(".sub-menu").removeClass("active");
+    });
 
-    $(".nav-open").click(function(){
+    $(".nav-open").click(function () {
         $(".nav-body").addClass("active");
     });
-    $(".nav-close").click(function(){
+    $(".nav-close").click(function () {
         $(".nav-body").removeClass("active");
     });
 

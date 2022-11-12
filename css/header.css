@@ -24,9 +24,46 @@ header{
     font-size: 20px;
     font-weight: 300;
 }
+.nav-list > li{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    z-index: 10;
+    background: #ffffffce;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: var(--trans-1);
+    padding: 10px 0;
+    width: 150px;
+    transform-origin: top;
+}
+.sub-menu.active{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.sub-menu > a{
+    flex-basis: 100%;
+    display: flex;
+}
+.sub-menu > a{
+    line-height: 35px;
+    padding: 0 25px;
+    color: var(--primary-color);
+    transition: var(--trans-1);
+    width: 100%;
+}
+.sub-menu > a:hover{
+    background: var(--primary-color);
+    color: var(--white);
+}
 .nav-list > li > a{
     color: var(--primary-color);
     transition: var(--trans-1);
+    line-height: 30px;
 }
 .nav-list > li > a:hover,
 .nav-list > li.active > a{
