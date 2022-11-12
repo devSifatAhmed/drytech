@@ -29,7 +29,7 @@
 }
 .service-wrapper > .col > .img{
     width: 100%;
-    max-height: 40rem;
+    height: 40rem;
 }
 .service-wrapper > .col > .img > img{
     width: 100%;
@@ -55,10 +55,22 @@
     background: var(--white);
     color: var(--primary-color);
 }
-
+@media(max-width: 1300px){
+    .service-wrapper > .col > .img{
+        height: 35rem !important;
+    }
+}
+@media(max-width: 1100px){
+    .service-wrapper > .col > .img{
+        height: 30rem !important;
+    }
+}
 @media(max-width: 800px){
     .service-wrapper > .col{
         flex-basis: calc((100% / 2) - 3rem);
+    }
+    .service-wrapper > .col > .img{
+        height: 35rem !important;
     }
 }
 @media(max-width: 550px){
