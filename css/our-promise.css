@@ -21,28 +21,28 @@
 .our-promise-wrapper > .col > .img > img{
     width: 100%;
 }
-.our-promise-wrapper > .col > .text{
-    max-width: 50rem;
-    padding: 5rem 5rem 5rem 2.5rem;
-    background: var(--white);
+.our-promise-wrapper > .col:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.our-promise-wrapper > .col > .text > h2{
-    font-size: 4rem;
-    font-weight: 200;
+.promise-btn{
     color: var(--primary-color);
-}
-.our-promise-wrapper > .col > .text > p{
-    font-size: 1.6rem;
-    font-weight: 300;
+    background: var(--white);
+    padding: 1rem 2rem;
+    font-size: 2rem;
     font-family: "Roboto";
-    color: var(--black);
-    opacity: 0.8;
-    line-height: 2.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid transparent;
+    transition: var(--trans-1);
+    font-weight: 500;
+    margin: 5rem;
 }
-.our-promise-wrapper > .col > .text > p > b{
-    font-weight: 400;
+.promise-btn:hover{
+    border: 0.2rem solid var(--white);
+    background: transparent;
+    color: var(--white);
 }
-
 @media(max-width: 800px){
     .our-promise-wrapper{
         flex-wrap: wrap;
