@@ -76,8 +76,10 @@ form > input[type="submit"]{
     transition: var(--trans-1);
     border: none;
     padding: 1rem 7rem;
+    border: 0.2rem solid transparent;
 }
 form > input[type="submit"]:hover{
-    background: var(--secondary-color);
+    background: transparent;
     color: var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
 }

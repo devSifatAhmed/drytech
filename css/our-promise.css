@@ -27,23 +27,6 @@
     align-items: center;
     justify-content: center;
 }
-.promise-btn{
-    color: var(--primary-color);
-    background: var(--white);
-    padding: 1rem 2rem;
-    font-size: 2rem;
-    font-family: "Roboto";
-    border-radius: 0.5rem;
-    border: 0.2rem solid transparent;
-    transition: var(--trans-1);
-    font-weight: 500;
-    margin: 5rem;
-}
-.promise-btn:hover{
-    border: 0.2rem solid var(--white);
-    background: transparent;
-    color: var(--white);
-}
 .our-promise-wrapper:last-child{
     display: flex;
     align-items: stretch;

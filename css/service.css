@@ -50,10 +50,12 @@
     border-radius: 0.5rem;
     transition: var(--trans-1);
     margin-top: -1.5rem;
+    border: 0.2rem solid transparent;
 }
 .service-wrapper > .col > a:hover{
-    background: var(--white);
+    background: transparent;
     color: var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
 }
 @media(max-width: 1300px){
     .service-wrapper > .col > .img{

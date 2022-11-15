@@ -127,4 +127,13 @@ header{
         top: 25px;
         right: 25px;
     }
+    .call-btn{
+        color: var(--primary-color) !important;
+        background: var(--white) !important;
+    }
+    .call-btn:hover{
+        color: var(--white) !important;
+        background: transparent !important;
+        border: 2px solid var(--white) !important;
+    }
 }
