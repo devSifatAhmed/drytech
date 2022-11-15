@@ -5,9 +5,13 @@ footer{
     gap: 2rem;
     padding: 2rem 0;
     align-items: center;
+    background: var(--primary-color);
 }
 footer > hr{
     width: 100%;
+    height: 1px;
+    border: none;
+    background: var(--secondary-color);
 }
 .f-top-wrapper{
     max-width: 90rem;
@@ -18,38 +22,13 @@ footer > hr{
     gap: 2rem 10rem;
     align-items: flex-start;
 }
-.f-top-wrapper > .address{
-    width: fit-content;
-    text-align: center;
-}
-.f-top-wrapper > .address > h5{
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: var(--primary-color);
-    font-family: "Roboto";
-}
-.f-top-wrapper > .address > p{
-    font-family: "Roboto";
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
-    color: var(--black);
-}
-
-
-.f-top-wrapper > .contact > h5{
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: var(--primary-color);
-    font-family: "Roboto";
-    line-height: 2.5rem;
-}
 
 .f-btm, .f-btm > a{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Roboto";
-    color: var(--primary-color);
-    opacity: 0.8;
+    color: var(--white);
+    opacity: 0.9;
 }
 .f-btm > a{
     text-decoration: underline;
