@@ -32,16 +32,14 @@
     color: var(--primary-color);
 }
 .location-wrapper > .col > .text > .field{
-    margin-bottom: 2.5rem;
+    padding-top: 2rem;
+    display: flex;
+    gap: 4rem 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .location-wrapper > .col > .text > .field:last-child{
     margin-bottom: 0;
-}
-.location-wrapper > .col > .text > .field > h5{
-    font-size: 2.2rem;
-    font-family: "Roboto";
-    font-weight: 400;
-    color: var(--black);
 }
 .location-wrapper > .col > .text > .field > p{
     font-size: 1.6rem;
@@ -51,6 +49,7 @@
     margin-top: 0.5rem;
     padding: 0 4rem;
     opacity: 0.8;
+    flex-basis: 25rem;
 }
 .location-wrapper > .col > .map{
     width: 100%;

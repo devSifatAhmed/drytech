@@ -38,7 +38,7 @@ header{
     opacity: 0;
     transition: var(--trans-1);
     padding: 10px 0;
-    width: 150px;
+    width: 200px;
     transform-origin: top;
 }
 .sub-menu.active{
