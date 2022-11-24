@@ -7,7 +7,7 @@ footer{
     align-items: center;
     background: var(--primary-color);
 }
-.logo-f{
+.logo-f > a > img{
     width: 25rem;
 }
 footer > hr{
