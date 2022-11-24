@@ -10,13 +10,15 @@ header{
     align-items: center;
 }
 .logo{
-    width: 14rem;
+    width: fit-content;
 }
 .logo > a{
+    display: flex;
+    gap: 2rem;
     width: 100%;
 }
 .logo > a > img{
-    width: 100%;
+    width: 14rem;
 }
 .nav-list{
     display: flex;
@@ -75,6 +77,18 @@ header{
     color: var(--white) !important;
     background: var(--primary-color) !important;
     transition: var(--trans-1);
+    position: relative;
+}
+.call-btn > span{
+    position: absolute;
+    width: 15rem;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--primary-color);
 }
 .call-btn:hover{
     color: var(--primary-color) !important;
