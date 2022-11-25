@@ -1,28 +1,36 @@
+.contact-field-wrapper{
+    width: 100% !important;
+    max-width: 100% !important;
+}
 .contact-address{
-    width: 45rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 .contact-address > .field{
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    gap: 4rem 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.contact-address > .field > h5{
+.contact-address > .field > .location{
+    text-align: center;
+    flex-basis: 27rem;
+}
+.contact-address > .field > * h5{
     color: var(--white);
     font-size: 2.2rem;
     font-weight: 400;
     font-family: "Roboto";
+    opacity: 0.93;
 }
-.contact-address > .field > span{
-    color: var(--white);
-    font-size: 1.5rem;
+.contact-address > .field > * p{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
     font-family: "Roboto";
     font-weight: 300;
-    line-height: 2.5rem;
+    color: var(--secondary-color);
 }
-
 #contact{
     width: 100%;
     padding: 4rem;

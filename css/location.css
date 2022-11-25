@@ -41,20 +41,29 @@
 .location-wrapper > .col > .text > .field:last-child{
     margin-bottom: 0;
 }
-.location-wrapper > .col > .text > .field > p{
-    font-size: 1.6rem;
+.location-wrapper > .col > .text > .field > .location{
+    flex-basis: 27rem;
+}
+.location-wrapper > .col > .text > .field > * h5{
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+.location-wrapper > .col > .text > .field > * h5,
+.location-wrapper > .col > .text > .field > * p{
     font-family: "Roboto";
     font-weight: 400;
     color: var(--black);
     opacity: 0.8;
-    flex-basis: 27rem;
+}
+.location-wrapper > .col > .text > .field > * p{
+    font-size: 1.6rem;
 }
 .location-wrapper > .col > .map{
     width: 100%;
+    align-self: center;
 }
-.location-wrapper > .col > .map > iframe{
+.location-wrapper > .col > .map > img{
     width: 100%;
-    height: 100%;
 }
 
 @media(max-width: 550px){

@@ -151,3 +151,9 @@ header{
         border: 2px solid var(--white) !important;
     }
 }
+
+@media(max-width: 600px){
+    .logo > a > img{
+        width: 10rem;
+    }
+}
