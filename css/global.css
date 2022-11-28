@@ -27,6 +27,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 0;
+    padding-bottom: 10rem;
 }
 .row{
     width: 100%;
@@ -65,17 +66,17 @@ html{
 }
 .text-box >* p,
 .text-box >* ul{
-    font-size: 2.5rem;
-    font-weight: 200;
+    font-size: 2rem;
+    font-weight: 300;
     color: var(--white);
-    line-height: 4rem;
+    line-height: 2.7rem;
+    font-family: "Roboto";
 }
 .text-box >* ul > li{
     list-style: disc;
 }
 .img-box{
     width: 100%;
-    height: 53rem;
     display: flex;
     align-items: center;
     overflow: hidden;
