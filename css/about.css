@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding-right: 4rem;
 }
 .about-wrapper > .col > .text > h2{
@@ -29,14 +30,18 @@
     font-weight: 300;
     color: var(--white);
 }
-.about-wrapper > .col > .text > p{
+.about-wrapper > .col > .text >  p,
+.about-wrapper > .col > .text >  p > a{
     font-size: 2.5rem;
     font-weight: 300;
     font-family: "Roboto";
-    color: var(--white);
+    color: var(--white) !important;
     line-height: 3.5rem;
     padding-left: 4rem;
     text-align: center;
+}
+.about-wrapper > .col > .text >  p > a{
+    padding: 0;
 }
 @media(max-width: 800px){
     .about-wrapper > .col{
